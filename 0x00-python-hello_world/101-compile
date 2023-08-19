@@ -1,0 +1,4 @@
+#!/bin/bash
+PYF=$PYFILE
+PYFC="${pyfile}c"
+python -m py_compile $PYF && mv "${PYF}c" $PYFC
